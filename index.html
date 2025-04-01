@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Circuit Pro</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaQueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Circuit Pro</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">À propos</a></li>
+          <!-- <li><a href="#experience">Expérience</a></li>
+          <li><a href="#projects">Projets</a></li> -->
+          <li><a href="#contact">Me rejoindre</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Félix Jacques</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">À propos</a></li>
+          <!-- <li><a href="#experience" onclick="toggleMenu()">Expérience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projets</a></li> -->
+          <li><a href="#contact" onclick="toggleMenu()">Me rejoindre</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/circuit.jpg" alt="Karel ProPic" style="width: 1000px; height: 500px; margin-left: -300px;" />
+      </div>      
+      <div class="section__text">
+        <p class="section__text__p1">Bienvenue chez </p>
+        <h1 class="title">Circuit Pro</h1>
+        <p class="section__text__p2">Par: Félix Jacques</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Document 2.pdf')"
+          >
+            The hockey spot
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Me contacter
+          </button>
+        </div>
+        <div id="socials-container">
+          <!-- <img
+            src="/assets/linkedin.png"
+            alt="Mon profil LinkedIn"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/karel-mahiet-68562b264/'"
+          /> -->
+          <!-- <img
+            src="/assets/github.png"
+            alt="Mon profil GitHub"
+            class="icon"
+            onclick="location.href='https://github.com/karelmahiet'"
+          /> -->
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Apprenez à me connaitre!</p>
+      <h1 class="title">À propos de moi</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img src="./assets/filouemus.jpg" alt="Photo" class="about-pic" />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="experience icon"
+                class="icon"
+              />
+              <h3>Expérience</h3>
+              <p>
+                Journalier chez Matexpert <br />
+                Conception de circuit électrique pour EMUS <br />
+                
+              </p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="education icon"
+                class="icon"
+              />
+              <h3>Éducation</h3>
+              <p>
+                Science de la nature <br />
+                (2022-2024)<br />
+                Baccalauréat en génie électrique <br />
+                (2024-présent)
+              </p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>Je suis un jeune homme de 20 ans, passionné par l’ingénierie, la création et l’innovation. Depuis toujours, j’ai une fascination pour la manière dont les choses fonctionnent et comment les idées peuvent se transformer en projets concrets. Cette passion m’a poussé à explorer différents domaines de l’ingénierie et à toujours chercher de nouvelles façons d’apporter des solutions créatives.<br><br>
+
+              En plus de mes aspirations professionnelles, je suis également un sportif dans l’âme. La discipline et la rigueur que l’on retrouve dans le sport sont des valeurs que j’applique aussi dans ma vie quotidienne. Cela me permet de rester motivé et de repousser constamment mes limites.<br><br>
+              
+              Je me décrirais comme une personne travaillante, disciplinée, ponctuelle et minutieuse. Que ce soit dans mes études, dans mes projets personnels ou même dans mes activités sportives, je mets un point d'honneur à être à la hauteur des attentes que je me fixe. La ponctualité et le respect des délais sont des aspects très importants pour moi, car je crois que la gestion du temps est essentielle pour atteindre ses objectifs.</p>
+              
+          </div>
+        </div>
+        <!-- <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      /> -->
+      </div>
+    </section>
+    <!-- <section id="experience">
+      <p class="section__text__p1">Explorez mes</p>
+      <h1 class="title">Expériences</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Cégep de Valleyfield</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>DEC</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>DEC</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Java</h3>
+                  <p>DEC, Stage</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Soutien informatique</h3>
+                  <p>DEC, Stage</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SQL</h3>
+                  <p>DEC</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Swift</h3>
+                  <p>DEC</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Université de Sherbrooke</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Robotique</h3>
+                  <p>BAC</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>C++</h3>
+                  <p>BAC</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>AutoCAD</h3>
+                  <p>BAC</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SolidWorks</h3>
+                  <p>BAC</p>
+                </div>
+              </article>
+              </article>
+            </div>
+          </div>
+          <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+        </div>
+      </div>
+    </section> -->
+    <!-- <section id="projects">
+    <p class="section__text__p1">Mes récents</p>
+    <h1 class="title">Projets</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img src="./assets/P15.jpg" alt="Project 1" class="project-img">
+        </div>
+        <h2 class="experience-sub-title project-title">Projet Session 1</h2>
+        <div class="btn-container">
+          <video id="myVideo" style="height: 15rem; width: 15rem;">
+            <source src="./assets/RobotLuigi.MP4" type="video/mp4">
+            Votre navigateur ne supporte pas la lecture de vidéos.
+          </video>
+          <button class="btn btn-color-2 project-btn" id="playFullScreen">
+            Voir mon projet Robotique!
+          </button>
+        </div>
+      </div>
+    </div>
+    <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </div>
+    </section> -->
+  <section id="contact">
+    <p class="section__text__p1">Pour me joindre</p>
+    <h1 class="title">Contactez moi!</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon">
+        <p><a href="mailto:felixjacquesttr@gmail.com">felixjacquesttr@gmail.com</a></p>
+      </div>
+      <!-- <div class="contact-info-container">
+        <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon">
+        <p><a href="https://www.linkedin.com/in/karel-mahiet-68562b264/">LinkedIn</a></p>
+      </div> -->
+    </div>
+  </section>
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">À propos</a></li>
+          <!-- <li><a href="#experience">Expérience</a></li>
+          <li><a href="#projects">Projets</a></li> -->
+          <li><a href="#contact">Me rejoindre</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p>Copyright &#169; 2025 Félix Jacques. Tous droits réservés</p>
+  </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
